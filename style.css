@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+
+body {
+    margin: 0px;
+}
+
+nav {
+    border-bottom: solid 1px white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #527265;
+    flex-wrap: wrap;    
+    padding: 50px;
+}
+
+.home {
+    display: flexbox;
+}
+
+.logo img{
+    height: auto;
+    display: flex;
+}
+
+.topnav {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.topnav a{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.topnav a:hover {
+    color: gray;
+}
+
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.searchbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+.banner {
+    background-image: url(images/MALDIVAS-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: 40px;
+}
+
+.desc {
+    color: #527265;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.servicos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background: rgba(72, 104, 72, .4);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.catalogo h1{
+    z-index: 4;
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+.destino {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.destino img {
+    width: auto;
+    height: auto;
+    display: block;
+    height: 500px;
+}
+
+.destino img:hover {
+    transition: 0.1s;
+    filter: grayscale(100%);
+}
+
+.destino-info {
+    background-color: #527265;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: antiquewhite;
+}
+.destino-title {
+    font-weight: bold;
+    margin: 5px 0;
+}
