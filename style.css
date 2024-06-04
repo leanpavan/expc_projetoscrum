@@ -201,3 +201,10 @@ div.telefone {
     align-items: center;
 
 }
+
+.form{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
