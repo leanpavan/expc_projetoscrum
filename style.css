@@ -140,6 +140,18 @@ nav {
     margin: 5px 0;
 }
 
+.empresas {
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.empresas img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
 footer {
     margin-top: 20px;
     width: 100%;
