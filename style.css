@@ -12,17 +12,58 @@ footer {
     bottom: 0;
     left: 0;
     background-color: #527265;
-    min-height: 200px;
-    display: flex;
-    justify-content: center;
+    min-height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
-div.footer {
-    width: 80%;
+.contato{
     text-align: center;
-    display: flex;
 }
 
-img.instagram {
-    max-height: 30px;
+div.rodape {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+div.instagram{
+    display: flex;
+    align-items: center;
+}
+
+img.instagram { 
+    max-height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a.instagram {
+text-decoration: none;
+color: black;
+
+}
+
+div.whatsapp {
+    display: flex;
+    align-items: center;
+
+}
+
+img.whatsapp{
+    max-height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.telefone {
+    display: flex;
+    align-items: center;
+
 }
